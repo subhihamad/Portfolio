@@ -1,32 +1,32 @@
-$primary-color:#ffd700;
+$primary-color: #ffd700;
 
-@import 'animate.css';
-@import '~loaders.css/src/animations/ball-pulse.scss';
+@import "animate.css";
+@import "~loaders.css/src/animations/ball-pulse.scss";
 
-@font-face{
-    font-family: 'Helvetica Neue';
-    src: url(assets/fonts/helvetica-neu.ttf) format('ttf');
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(assets/fonts/helvetica-neu.ttf) format("ttf");
 }
 
-@font-face{
-    font-family: 'la Belle Aurore';
-    src: url(assets/fonts/LaBelleAurore.woff2) format('woff2');
+@font-face {
+    font-family: "la Belle Aurore";
+    src: url(assets/fonts/LaBelleAurore.woff2) format("woff2");
 }
 
-@font-face{
-    font-family: 'Coolvetica';
-    src: url(assets/fonts/CoolveticaRg-Regular.woff2) format('woff2');
+@font-face {
+    font-family: "Coolvetica";
+    src: url(assets/fonts/CoolveticaRg-Regular.woff2) format("woff2");
 }
 
 input,
-textarea{
-    font-family:'helvetica-neu';
+textarea {
+    font-family: "helvetica-neu";
 }
 .loader-hidden {
     display: none;
-  }
-  
-  .loader-active {
+}
+
+.loader-active {
     display: block;
     position: absolute;
     left: 0;
@@ -38,7 +38,4 @@ textarea{
     height: 50px;
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
-  }
-
-
-
+}
